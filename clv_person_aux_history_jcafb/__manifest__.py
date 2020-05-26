@@ -3,25 +3,21 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    'name': 'Family History (customizations for CLVhealth-JCAFB Solution)',
-    'summary': 'Family History Module customizations for CLVhealth-JCAFB Solution.',
+    'name': 'Person (Aux) History (customizations for CLVhealth-JCAFB Solution)',
+    'summary': 'Person (Aux) History Module customizations for CLVhealth-JCAFB Solution.',
     'version': '12.0.4.0',
     'author': 'Carlos Eduardo Vercelino - CLVsol',
     'category': 'CLVsol Solutions',
     'license': 'AGPL-3',
     'website': 'https://github.com/CLVsol',
     'depends': [
-        'clv_family_history',
-        'clv_family_jcafb',
+        'clv_person_aux_history',
+        'clv_person_aux_jcafb',
     ],
     'data': [
-        # 'views/family_view.xml',
-        'views/family_history_view.xml',
-        'views/family_history_reg_state_view.xml',
-        'views/family_history_state_view.xml',
-        'views/family_history_menu_view.xml',
-        'wizard/family_history_updt_view.xml',
-        'wizard/family_document_setup_view.xml',
+        'wizard/person_aux_event_setup_view.xml',
+        'wizard/person_aux_document_setup_view.xml',
+        'wizard/person_aux_lab_test_request_setup_view.xml',
     ],
     'demo': [],
     'test': [],

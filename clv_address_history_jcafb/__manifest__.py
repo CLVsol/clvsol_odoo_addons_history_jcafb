@@ -21,6 +21,8 @@
         'views/address_history_state_view.xml',
         'views/address_history_menu_view.xml',
         'wizard/address_history_updt_view.xml',
+        'wizard/address_document_setup_view.xml',
+        'wizard/address_lab_test_request_setup_view.xml',
     ],
     'demo': [],
     'test': [],

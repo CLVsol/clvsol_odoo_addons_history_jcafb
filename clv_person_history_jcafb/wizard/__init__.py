@@ -5,3 +5,5 @@
 from . import person_history_updt
 from . import person_history_person_associate_to_set
 from . import person_history_person_mass_edit
+from . import person_document_setup
+from . import person_lab_test_request_setup

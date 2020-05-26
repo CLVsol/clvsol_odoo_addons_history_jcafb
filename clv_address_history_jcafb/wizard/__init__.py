@@ -3,3 +3,5 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from . import address_history_updt
+from . import address_document_setup
+from . import address_lab_test_request_setup
