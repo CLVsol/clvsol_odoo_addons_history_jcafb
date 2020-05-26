@@ -16,10 +16,12 @@
     ],
     'data': [
         # 'views/family_view.xml',
+        'views/family_history_view.xml',
         'views/family_history_reg_state_view.xml',
         'views/family_history_state_view.xml',
         'views/family_history_menu_view.xml',
         'wizard/family_history_updt_view.xml',
+        'wizard/family_document_setup_view.xml',
     ],
     'demo': [],
     'test': [],
