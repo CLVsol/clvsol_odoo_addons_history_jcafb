@@ -4,7 +4,7 @@
 
 import logging
 
-from odoo import api, fields, models
+from odoo import fields, models
 from odoo import exceptions
 
 _logger = logging.getLogger(__name__)
@@ -31,7 +31,7 @@ class AddressHistoryUpdate(models.TransientModel):
         required=False
     )
 
-    @api.multi
+    # @api.multi
     def _reopen_form(self):
         self.ensure_one()
         action = {
@@ -44,7 +44,7 @@ class AddressHistoryUpdate(models.TransientModel):
         }
         return action
 
-    @api.multi
+    # @api.multi
     def do_address_history_updt(self):
         self.ensure_one()
 

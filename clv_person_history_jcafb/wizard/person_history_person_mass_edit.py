@@ -4,8 +4,7 @@
 
 import logging
 
-from odoo import api, fields, models
-from odoo.exceptions import UserError
+from odoo import fields, models
 
 _logger = logging.getLogger(__name__)
 
@@ -65,7 +64,7 @@ class PersonHistoryPersonMassEdit(models.TransientModel):
          ], string='Markers:', default=False, readonly=False, required=False
     )
 
-    @api.multi
+    # @api.multi
     def _reopen_form(self):
         self.ensure_one()
         action = {
@@ -78,7 +77,7 @@ class PersonHistoryPersonMassEdit(models.TransientModel):
         }
         return action
 
-    @api.multi
+    # @api.multi
     def do_person_history_person_mass_edit(self):
         self.ensure_one()
 

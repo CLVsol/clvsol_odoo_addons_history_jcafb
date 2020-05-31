@@ -4,7 +4,7 @@
 
 import logging
 
-from odoo import api, fields, models
+from odoo import fields, models
 from odoo.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
@@ -33,7 +33,7 @@ class PersonHistoryPersonAssociateToSet(models.TransientModel):
 
     set_name = fields.Char(string='Set Name', required=False, help="Set Name")
 
-    @api.multi
+    # @api.multi
     def _reopen_form(self):
         self.ensure_one()
         action = {
@@ -46,7 +46,7 @@ class PersonHistoryPersonAssociateToSet(models.TransientModel):
         }
         return action
 
-    @api.multi
+    # @api.multi
     def do_person_history_person_associate_to_set(self):
         self.ensure_one()
 

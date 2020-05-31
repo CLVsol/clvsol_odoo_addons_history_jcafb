@@ -4,7 +4,7 @@
 
 import logging
 
-from odoo import api, fields, models
+from odoo import fields, models
 
 _logger = logging.getLogger(__name__)
 
@@ -23,7 +23,7 @@ class FamilyDocumentSetUp(models.TransientModel):
         ondelete='restrict'
     )
 
-    @api.multi
+    # @api.multi
     def do_family_document_setup(self):
         self.ensure_one()
 
