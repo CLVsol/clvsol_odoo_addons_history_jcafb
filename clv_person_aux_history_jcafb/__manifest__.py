@@ -15,6 +15,7 @@
         'clv_person_aux_jcafb',
     ],
     'data': [
+        'views/person_aux_view.xml',
         'wizard/person_aux_event_setup_view.xml',
         'wizard/person_aux_document_setup_view.xml',
         'wizard/person_aux_lab_test_request_setup_view.xml',

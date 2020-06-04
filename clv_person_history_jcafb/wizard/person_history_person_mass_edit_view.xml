@@ -53,10 +53,9 @@
     <act_window 
         id="clv_person_history_person_mass_edit_action"
         name="Person History - Person Mass Edit"
-        src_model="clv.person.history"
+        binding_model="clv.person.history"
         res_model="clv.person.history.person_mass_edit"
         view_mode="form"
-        key2="client_action_multi"
         target="new"
     />
 

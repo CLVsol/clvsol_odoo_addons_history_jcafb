@@ -38,10 +38,9 @@
     <act_window 
         id="clv_person_history_person_associate_to_set_action"
         name="Person History Associate to Set (Person)"
-        src_model="clv.person.history"
+        binding_model="clv.person.history"
         res_model="clv.person.history.person_associate_to_set"
         view_mode="form"
-        key2="client_action_multi"
         target="new"
     />
 
