@@ -15,7 +15,7 @@
         'clv_person_jcafb',
     ],
     'data': [
-        # 'views/person_view.xml',
+        'views/person_view.xml',
         'views/person_history_view.xml',
         'views/person_history_reg_state_view.xml',
         'views/person_history_state_view.xml',
