@@ -15,7 +15,7 @@
         'clv_family_jcafb',
     ],
     'data': [
-        # 'views/family_view.xml',
+        'views/family_view.xml',
         'views/family_history_view.xml',
         'views/family_history_reg_state_view.xml',
         'views/family_history_state_view.xml',
