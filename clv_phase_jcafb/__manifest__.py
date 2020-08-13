@@ -15,6 +15,7 @@
         'clv_base_jcafb',
     ],
     'data': [
+        'data/default_value.xml',
         'views/phase_menu_view.xml',
     ],
     'demo': [],
